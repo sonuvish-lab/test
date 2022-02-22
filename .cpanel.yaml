@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/oyeappsc/public_html/firstrepo/
+    - /bin/cp -R * $DEPLOYPATH
+    
